@@ -1,0 +1,127 @@
+/* header start */
+header{
+    padding: 25px 0;
+}
+header img{
+    width: 150px;
+}
+header ul li.nav-item{
+    padding: 0 20px;
+}
+header ul li.nav-item:last-child{
+    padding: 0 0px;
+}
+header ul li.nav-item a{
+    font-weight: 500;
+    font-size: 18px;
+    color: #000 !important;
+    transition: all 0.5s;
+}
+header ul li.nav-item a.activate{
+    color: #FF9C35 !important;
+}
+header ul li.nav-item a:hover{
+    color: #FF9C35 !important;
+}
+/* header end */
+
+
+/* slider start */
+.slider{
+    background-image: url(../images/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: top 100% left 0%;
+}
+.slider .slider_border{
+    border: 3px solid #FF9C35;
+}
+.slider .carousel-indicators [data-bs-target]{
+    height: 10px;
+    background-color: #FF9C35;
+}
+.slider .carousel-item{
+    padding: 20px 40px;
+}
+.slider p{
+    margin: 25px 0;;
+}
+.slider .buy-btn{
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.slider .slider_bg{
+    background-image: url(../images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+/* slider end */
+
+
+/* smartphone,laptop start */
+.smartphone,.laptop{
+    margin: 100px 0 70px;
+}
+.smartphone a,.laptop a{
+    font-weight: 500;
+    font-size: 18px;
+    list-style: none;
+    text-decoration: none;
+    color: #FF9C35;
+}
+.smartphone img{
+    width: 280px;
+    height: 280px;
+}
+.laptop img{
+    width: 345px;
+    height: 280px;
+}
+.smartphone .cat-mt,.laptop .cat-mt{
+    margin-top: 50px;
+}
+.smartphone .card,.laptop .card{
+    padding: 40px 0;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.smartphone .smartphone-btn,.laptop .laptop-btn{
+   background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.smartphone .price,.laptop .price{
+    margin: 35px 0 25px;
+}
+/* smartphone,laptop end */
+
+
+/* categories start */
+.categories{
+    margin: 130px 0 90px;
+}
+.categories h2{
+    border-bottom: 3px solid #FF9C35;
+    border-width: 10px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+.categories .img_bg{
+    padding: 35px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+/* categories end */
+
+
+/* footer start */
+footer{
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+/* footer end */
